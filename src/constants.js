@@ -1,5 +1,5 @@
-import DSC_0661 from './assets/DSC_0661 copy.jpeg'
-import LULUMAIN from './assets/DSC_0393 copy.jpg'
+import DSC_0661 from '../public/DSC_0661 copy.jpeg'
+import LULUMAIN from '../public//DSC_0393 copy.jpg'
 
 export const homeText = {
   title: 'לולו שפריר',

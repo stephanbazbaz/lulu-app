@@ -1,13 +1,9 @@
 'use client';
 import { useState } from 'react';
-// import { Outlet, Link } from 'react-router-dom';
 import FlexRow from '../../common/FlexRow/FlexRow';
 import styles from './Header.module.scss';
-import Artboard from '../../assets/Artboard 24 copy 2@3x.png'
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
-import clsx from 'classnames';
-import Image from 'next/image';
 const Header = () => {
   const arr = [
     {
@@ -37,13 +33,6 @@ const Header = () => {
   const trigger = useScrollTrigger();
   return (
     <>
-      {/* <div className={styles.Header}>
-        <div className={styles.mainTitle}>
-          <Image src={Artboard} alt='logo' />
-          <Image
-            src={Artboard} alt='logo' />
-        </div>
-      </div> */}
       <Slide appear={true} direction="down" in={!trigger}>
         <div className={styles.navWrap}>
           <FlexRow className={styles.navRow}>
