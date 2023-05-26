@@ -1,0 +1,37 @@
+$fontColor: #e3e0d6;
+$redColor: #a33814;
+$offWhiteColor: #e3e0d6;
+$blueColor: #031736;
+$backgroundColor: #a33814;
+
+@mixin hover_line {
+  .label {
+    position: relative;
+    cursor: pointer;
+    li {
+      text-decoration: none;
+      transition: all 300ms ease;
+      &:hover {
+        color: rgb(172 104 0);
+      }
+    }
+  }
+  .label:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: $fontColor;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .label:hover:after,
+  .label:focus:after,
+  .label:active:after {
+    right: 0px;
+    width: 100%;
+  }
+}

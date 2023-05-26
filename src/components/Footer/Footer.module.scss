@@ -1,0 +1,15 @@
+@import "../../styles/globalStyles.scss";
+
+.Footer {
+  height: 200px;
+  width: 100%;
+  background: $offWhiteColor;
+  color: $blueColor;
+  position: relative;
+  .allRights {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+}

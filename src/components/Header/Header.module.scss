@@ -1,0 +1,54 @@
+@import "../../styles/globalStyles.scss";
+
+.Header {
+  .mainTitle {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+    justify-content: space-between;
+
+    .titleRight {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+  }
+}
+.navWrap {
+  .liBtn {
+    @include hover_line;
+    color: white;
+  }
+  position: sticky;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 10;
+  .navRow {
+    background: $backgroundColor;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 11px 0;
+    a {
+      text-decoration: none;
+      font-style: normal;
+      color: $fontColor;
+      font-size: 20px;
+    }
+  }
+}

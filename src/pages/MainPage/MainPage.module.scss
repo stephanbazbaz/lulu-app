@@ -1,0 +1,148 @@
+@import "../../styles/globalStyles.scss";
+.Home {
+  padding: 0 20px;
+  // padding-bottom: 100px;
+  margin-top: 40px;
+  .pageBreakTitle {
+    margin: 30px 0;
+  }
+  h3,
+  h2 {
+    text-align: center;
+  }
+  .logoWarp {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 10;
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: 140px;
+    }
+  }
+  .catRow {
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .cardWarp {
+      height: 350px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: -6px 10px 15px -3px rgba(0, 0, 0, 0.1);
+      margin-bottom: 50px;
+
+      .cardBody {
+        color: $blueColor;
+        background: rgb(255 255 255 / 24%);
+        padding: 0px 10px;
+        position: absolute;
+        max-width: 350px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        height: 160px;
+        .cardTitle {
+          font-size: 18px;
+          color: black;
+          margin-bottom: 10px;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .coverImageWarp {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .imageWarp {
+    height: 100%;
+    opacity: 0.75;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+      transition: 0.2s all ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .quoteWarp {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 34px;
+    }
+
+    .quote {
+      padding: 70px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 0.2px;
+      font-size: 18px;
+      padding: 40px 70px;
+    }
+  }
+
+  .sectionPics {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    .imageWrap {
+      max-width: 1000px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .smallCardWrap {
+    width: 350px;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+    background: $offWhiteColor;
+    color: $blueColor;
+    padding: 5px 10px;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    .smallCardImgWrap {
+      width: 120px;
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+}
