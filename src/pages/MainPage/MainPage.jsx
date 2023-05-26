@@ -4,7 +4,7 @@ import styles from './MainPage.module.scss';
 import LULUMAIN from '../../assets/DSC_0381 copy.jpg'
 import LOGO from '../../assets/Artboard 24 copy 10@3x.png'
 import FlexRow from '../../common/FlexRow/FlexRow.jsx'
-import { homeText, categoryArr, cardsArr } from './constants'
+import { homeText, categoryArr, cardsArr } from '../../constants'
 import CLINIC_IMG from '../../assets/7B72EE63-D4E7-4458-BA39-B362860789B4_1_105_c.jpeg'
 import { style } from '@mui/system';
 import Image from 'next/image';

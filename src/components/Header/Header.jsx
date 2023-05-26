@@ -2,7 +2,6 @@
 import { useState } from 'react';
 // import { Outlet, Link } from 'react-router-dom';
 import FlexRow from '../../common/FlexRow/FlexRow';
-import { categoryArr, homeText } from '../../pages/MainPage/constants'
 import styles from './Header.module.scss';
 import Artboard from '../../assets/Artboard 24 copy 2@3x.png'
 import useScrollTrigger from '@mui/material/useScrollTrigger';
