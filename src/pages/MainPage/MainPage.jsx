@@ -9,10 +9,10 @@ const MainPage = () => (
     <div className={styles.mainContainer}>
       <div style={{ display: 'flex', width: '100%' }}>
         <div className={styles.coverImageWarp}>
-          <Image className={styles.logo} src='/images/DSC_0381 copy.jpg' alt='צמחי מרפא' width={400} height={400} />
+          <Image className={styles.logo} src='https://res.cloudinary.com/pwm/image/upload/v1685103990/DSC_0381_copy_birfg5.jpg' alt='צמחי מרפא' width={400} height={400} />
         </div>
         <div className={styles.logoWarp}>
-          <Image src='/images/Artboard 24 copy 10@3x.png' alt='logo' width={400} height={400} />
+          <Image src='https://res.cloudinary.com/pwm/image/upload/v1685103378/Artboard_24_copy_10_3x_la3sh1.png' alt='logo' width={400} height={400} />
         </div>
         <div className={styles.quoteWarp}>
           <div >

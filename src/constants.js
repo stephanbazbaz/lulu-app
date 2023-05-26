@@ -9,32 +9,32 @@ export const categoryArr = [
   {
     title: 'רפואה סינית',
     text: 'התפיסה של הרפואה הסינית היא פילוסופית ורואה את אדם כחלק בלתי נפרד מהטבע, ולכן הוא מושפע מהתופעות השונות ביקום כמו עונות השנה, יום ולילה ועוד.',
-    img: '/images/DSC_0661 copy.jpeg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104262/DSC_0661_copy_bsxwfr.jpg'
   },
   {
     title: 'דיקור יפני',
     text: 'התפיסה של הרפואה הסינית היא פילוסופית ורואה את אדם כחלק בלתי נפרד מהטבע, ולכן הוא מושפע מהתופעות השונות ביקום כמו עונות השנה, יום ולילה ועוד.',
-    img: '/images/DSC_0393 copy.jpg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104388/DSC_0393_copy_nw2el3.jpg'
   },
   {
     title: 'התאמת תזונה אישית',
     text: 'השילוב של הידע המערבי ביחד עם הפילוסופיה הסינית, מאפשרים התאמת תזונה אישית דרך התבוננות הוליסטית.',
-    img: '/images/DSC_0661 copy.jpeg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104262/DSC_0661_copy_bsxwfr.jpg'
   },
   {
     title: 'צמחי מרפא',
     text: 'רפואת הצמחים הסינית כוללת אלפי צמחי מרפא שונים, ועשרות רבות של תערובות מסורתיות, עליהן ניתן לבצע מודיפיקציות והתאמות אישיות לכל מטופל.הטיפול הוא מעמיק ומאפשר לאדם לטפל בעצמו גם בבית.',
-    img: '/images/DSC_0393 copy.jpg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104388/DSC_0393_copy_nw2el3.jpg'
   },
   {
     title: 'תוספים סינים',
     text: 'רפואת הצמחים הסינית כוללת אלפי צמחי מרפא שונים, ועשרות רבות של תערובות מסורתיות, עליהן ניתן לבצע מודיפיקציות והתאמות אישיות לכל מטופל.הטיפול הוא מעמיק ומאפשר לאדם לטפל בעצמו גם בבית.',
-    img: '/images/DSC_0661 copy.jpeg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104262/DSC_0661_copy_bsxwfr.jpg'
   },
   {
     title: 'מרפא פטריות',
     text: 'רפואת הצמחים הסינית כוללת אלפי צמחי מרפא שונים, ועשרות רבות של תערובות מסורתיות, עליהן ניתן לבצע מודיפיקציות והתאמות אישיות לכל מטופל.הטיפול הוא מעמיק ומאפשר לאדם לטפל בעצמו גם בבית.',
-    img: '/images/DSC_0393 copy.jpg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104388/DSC_0393_copy_nw2el3.jpg'
   },
 ]
 
@@ -42,16 +42,16 @@ export const cardsArr = [
   {
     title: 'רפואה סינית',
     text: 'התפיסה של הרפואה הסינית היא פילוסופית ורואה את אדם כחלק בלתי נפרד מהטבע.',
-    img: '/images/DSC_0661 copy.jpeg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104262/DSC_0661_copy_bsxwfr.jpg'
   },
   {
     title: 'דיקור יפני',
     text: 'התפיסה של הרפואה הסינית היא פילוסופית ורואה את אדם כחלק בלתי נפרד מהטבע.',
-    img: '/images/DSC_0393 copy.jpg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104388/DSC_0393_copy_nw2el3.jpg'
   },
   {
     title: 'התאמת תזונה אישית',
     text: 'התפיסה של הרפואה הסינית היא פילוסופית ורואה את אדם כחלק בלתי נפרד מהטבע.',
-    img: '/images/DSC_0661 copy.jpeg'
+    img: 'https://res.cloudinary.com/pwm/image/upload/v1685104262/DSC_0661_copy_bsxwfr.jpg'
   },
 ]
