@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './MainPage.module.scss';
-import LULUMAIN from '../../../public/DSC_0381 copy.jpg'
-import LOGO from '../../../public/Artboard 24 copy 10@3x.png'
 import FlexRow from '../../common/FlexRow/FlexRow.jsx'
 import { homeText, categoryArr, cardsArr } from '../../constants'
 import Image from 'next/image';
@@ -11,10 +9,10 @@ const MainPage = () => (
     <div className={styles.mainContainer}>
       <div style={{ display: 'flex', width: '100%' }}>
         <div className={styles.coverImageWarp}>
-          <Image className={styles.logo} src={LULUMAIN} alt='צמחי מרפא' height={400} />
+          <Image className={styles.logo} src='/DSC_0381 copy.jpg' alt='צמחי מרפא' width={400} height={400} />
         </div>
         <div className={styles.logoWarp}>
-          <Image src={LOGO} alt='logo' />
+          <Image src='/Artboard 24 copy 10@3x.png' alt='logo' width={400} height={400} />
         </div>
         <div className={styles.quoteWarp}>
           <div >
@@ -33,7 +31,7 @@ const MainPage = () => (
         {cardsArr.map((card, idx) =>
           <FlexRow key={`smallCard-${idx}`} className={styles.smallCardWrap}>
             <div className={styles.smallCardImgWrap}>
-              <Image src={card.img} alt={card.title} />
+              <Image src={card.img} alt={card.title} width={400} height={400} />
             </div>
             <div>
               <p>{card.text}</p>
@@ -51,7 +49,7 @@ const MainPage = () => (
         {categoryArr.map((item, idx) =>
           <div key={`category-${idx}`} className={styles.cardWarp}>
             <div className={styles.imageWarp}>
-              <Image src={item.img} alt={item.title} />
+              <Image src={item.img} alt={item.title} width={400} height={400} />
             </div>
             <div className={styles.cardBody}>
               <div>
