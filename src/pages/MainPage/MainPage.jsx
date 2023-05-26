@@ -9,10 +9,10 @@ const MainPage = () => (
     <div className={styles.mainContainer}>
       <div style={{ display: 'flex', width: '100%' }}>
         <div className={styles.coverImageWarp}>
-          <Image className={styles.logo} src='/DSC_0381 copy.jpg' alt='צמחי מרפא' width={400} height={400} />
+          <Image className={styles.logo} src='/images/DSC_0381 copy.jpg' alt='צמחי מרפא' width={400} height={400} />
         </div>
         <div className={styles.logoWarp}>
-          <Image src='/Artboard 24 copy 10@3x.png' alt='logo' width={400} height={400} />
+          <Image src='/images/Artboard 24 copy 10@3x.png' alt='logo' width={400} height={400} />
         </div>
         <div className={styles.quoteWarp}>
           <div >
